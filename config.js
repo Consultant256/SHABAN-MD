@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibUxhQXYzQllaSzJ3OUdZdGphQVREZ1hSbVdNV09HZjBoa25rRWVtcWswMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicDM2QmtjSisrUmpVQzh3WktyY0daL1JQcE9sS254VTZxNk5YMVNUeEJFbz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIwQ3d0dEhkVHUycVppS3RXeXEyNk03KzJLelF5Smc0ZlhYbmc3ZmxnbG5RPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDWm1pZ0hlak5NbEorWXlsMUpKYngyUHA4SGpZWlR1S2dFRmVpNVRIVkRZPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVEWEhHRFgycll0TEx1MDArOHNQZXI0bDRnTUNuZVBpNkx6K3RpMUxoRWc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlErMEtnMmR2TFB6MkVtOWFhZkhadVNSTnQ0M2N6M1kyT0N3MGRreXNiems9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK0h2U0VsNWc3Q2xjb3I4cWJNY21sOXI3dUZzUlFqRC9TSDdOTElVVFBIdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZTRUNnVVM3lQSkdPY1RWUFFUbGZ5WmxWbFF6OGlmUnh5YzRtajJ0VXRVQT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImZvSXJJd1ZpbVNneE9DS3VVOUliaXNvek9BUFNHU1R2ekFibDcwdGhLTXc2L1N2dHBJLzRmK2FnZEgvZGkyNU80VGlHZkhFd3RjTkZqTmRPMURWSUN3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjU1LCJhZHZTZWNyZXRLZXkiOiJQODhoS2RXMVJZR2l5SFU1VS9BMFlxenRUN0JKTk9XT2FaR2p4TjJvcGprPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiJIUDcyOVM1USIsIm1lIjp7ImlkIjoiMjU2Nzg2MzA0ODgwOjQyQHMud2hhdHNhcHAubmV0IiwibmFtZSI6IldBTUFMQSIsImxpZCI6IjU4NTYyMjMxNDIyOTk2OjQyQGxpZCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTFAxemN3QkVPaW8wc2NHR0FJZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoieFdMR25KdVRvVmEzem9sZlB1T0NJdEU4bTRrM3M1MGNLa29Oa2tsWUprUT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiTTE0U3JxSEM0QmlyNHFqb2s2QXdPa28rYVVkYyt0cEJ3YlY5U09NcisvSE9oTE9qTEwzNUlWaHJyM0dGUCsvbEtNMVlXcE1ZTXltODdROTRTS0NQQnc9PSIsImRldmljZVNpZ25hdHVyZSI6IndRcWR1WVBMa0Jkb1NSY1REZ0hRTUFKK3ZFTTNSdUNMbTRCd09ITlc5eGJLUjlvcnErVHBZK24wd3hxWGZzQzlSaENlUS9ud2VEejFVT0tkTGsyZUNRPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU2Nzg2MzA0ODgwOjQyQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmNWaXhweWJrNkZXdDg2Slh6N2pnaUxSUEp1Sk43T2RIQ3BLRFpKSldDWkUifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBSUlCUT09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc2MDg1OTI0NSwibGFzdFByb3BIYXNoIjoibm0zQmIiLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUpLbiJ9",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW Sʜᴀʙᴀɴ-Mᴅ 𓅓*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW  𓅓*",
 // set the auto reply massage on status reply
 AUTO_CHATBOT: process.env.AUTO_CHATBOT || "true", 
 // "true" = default ON, "false" = default OFF
@@ -33,7 +33,7 @@ CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself  
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923059395959",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "256786304880",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "MR-SHABAN",
 // add bot owner name
@@ -59,7 +59,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923059395959",
+DEV: process.env.DEV || "256786304880",
 //replace with your whatsapp number        
 ANTI_CALL: process.env.ANTI_CALL || "false",
 REJECT_MSG: process.env.REJECT_MSG || "*_SOORY MY BOSS IS BUSY PLEASE DONT CALL ME_*",
